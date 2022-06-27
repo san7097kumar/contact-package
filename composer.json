@@ -14,5 +14,12 @@
         "psr-4": {
             "Sandeep\\Contact\\": "src/"
         }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Sandeep\\Contact\\ContactServiceProvider"
+            ]
+        }
     }
 }
